@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortraitStats", "PortraitStats.csproj", "{006863A8-3A6B-422C-BDDF-2A53137AD314}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortraitStats", "Source\PortraitStats.csproj", "{006863A8-3A6B-422C-BDDF-2A53137AD314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86F08CD5-5048-4193-829B-03DB979679B3}"
+	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		Changelog.txt = Changelog.txt
+		deploy.bat = deploy.bat
+		LICENSE = LICENSE
+		PortraitStats.version = PortraitStats.version
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2678823-732E-43CD-835F-512E262B9CEB}
 	EndGlobalSection
 EndGlobal

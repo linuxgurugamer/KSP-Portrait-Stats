@@ -324,7 +324,14 @@ namespace PortraitStats
 			if (CrewHatchController.fetch.Active)
 				return;
 
-			CrewHatchController.fetch.SpawnCrewDialog(crew.InPart, false, true);
+
+			// Following change suggested by github user @videopilot
+			// https://github.com/DMagic1/KSP-Portrait-Stats/issues/10
+			// To allow clicking the xfer button to go straight to selecting a part
+			//CrewHatchController.fetch.SpawnCrewDialog(crew.InPart, false, true);
+			CrewTransfer.Create(crew.InPart, protoCrew, null);
+
+			
 
 			if (CrewHatchController.fetch.CrewDialog == null)
 				return;

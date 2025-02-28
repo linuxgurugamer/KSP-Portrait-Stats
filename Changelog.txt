@@ -1,0 +1,10 @@
+1.0.18.1
+	Merged in PR from github user @cake-pie
+		Community Trait Icons Wrapper update
+		Rollup of changes to CTIWrapper: minor bugfix and logging enhancement.
+		Changes are internal and do not require modifying any other code on your end.
+	Implemented suggestion from github user @videopilot
+		https://github.com/DMagic1/KSP-Portrait-Stats/issues/10
+		bypass the transfer dialog when pressing the xfr button
+	Added InstallChecker and AssemblyVersion.tt
+	Updated project and solution files as necessary
