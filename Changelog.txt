@@ -1,4 +1,7 @@
-1.0.18.1
+Changelog
+
+18.1
+	Adoption by Linuxgurugamer
 	Merged in PR from github user @cake-pie
 		Community Trait Icons Wrapper update
 		Rollup of changes to CTIWrapper: minor bugfix and logging enhancement.
@@ -8,3 +11,101 @@
 		bypass the transfer dialog when pressing the xfr button
 	Added InstallChecker and AssemblyVersion.tt
 	Updated project and solution files as necessary
+
+v18.0
+- Update for KSP 1.8
+- Change in game settings folder name
+
+v17.0
+- Add localization support for extended tooltips
+- Add Chinese translations - thanks RonnyWu
+
+v16.0
+- Update for KSP 1.4
+- Update Community Trait Icons to v1.0
+
+v15.1
+- Recompile for KSP 1.3.1
+
+v15.0
+- Trait icons now provided by Community Trait Icons by cakepie
+     - CTI is a dependency of Portrait Stats and is included in the download
+
+- Fix trait icons when using non-English versions of KSP
+- Fix potential error in initializing settings
+
+v14.0
+- Updated for KSP 1.3
+
+v13.0
+- Add support for new Kerbal trait types
+- Config file added to define icons and colors for Kerbal traits
+           - Support for additional types can be added through MM and custom made icons
+- Fix a bug when using settings as default for a new game
+
+v12.0
+- Update for KSP 1.2
+- In-game settings using the stock Difficulty window
+- New extended tooltips add additional information to the stock tooltips
+       - Kerbal stats
+       - Current flight log
+       - Experience values
+       - Current part name
+       - Tourist itinerary
+- New crew transfer button on portraits
+
+v11.0
+- Fixes an error with part highlighting
+
+v10.0
+- Add the title of the part each Kerbal resides in to their tooltip
+- Add optional part highlighter when the mouse hovers over the portrait
+    - New field in the settings file: hoverHighlight
+
+v9.0
+- Update for KSP 1.1.1
+
+v8.0
+- Update for KSP 1.1
+
+- Option to make portrait icons always active
+- Option to replace the Kerbal trait text with a colored icon
+- Options for tooltips on the trait text/icon and level icon
+
+v7.0
+
+- Fixed compatibility with non-English versions of KSP
+- Class icon colors are now set in the included config file; colors are given in 0-1 ranges (r,g,b,a)
+
+v6.0
+
+- Fixed compatibility issues with DeepFreeze and RPM
+- Make sure the display is inactive on EVA
+- Add a timer to the display when returning from map view
+- Add 2 digits to the current experience amount
+
+v5.0
+
+- More info in tooltips
+- Courage, stupidity, baddassery, experience
+- Tweaks to icon drawing methods
+- Engineer icon is now yellow
+- Tourist icon is now green
+
+v4.0
+
+- Tooltips for each icon (thanks nightingale)
+- The trait icon gives information on that trait and its abilities at the current level
+- The stars icon gives information about the Kerbal's career log and current flight
+- This information is similar to what is found in the astronaut complex
+- Both tooltips can be deactivated with the included settings file
+- The stars icon is only visible either in career mode, or if the tooltips for the icon are activated
+
+v3.0
+
+- Better handling of small UI scales
+
+v2.0
+
+- Icons outlined in black
+- Stars arranged vertically along the right side of the portrait
