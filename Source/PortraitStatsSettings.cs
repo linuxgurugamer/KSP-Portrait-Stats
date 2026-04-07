@@ -20,7 +20,7 @@ namespace PortraitStats
 		[Persistent]
 		public int ReloadDelay = 5;
 
-		private const string fileName = "PluginData/Settings.cfg";
+		private const string fileName = "../PluginData/Settings.cfg";
 		private string fullPath;
 		private StatsGameSettings settings;
 

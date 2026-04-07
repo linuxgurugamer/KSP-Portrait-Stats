@@ -1,6 +1,9 @@
 Changelog
 
-18.1
+18.1.0.1
+	Fixed location of the Settings.cfg file
+
+18.1.0
 	Adoption by Linuxgurugamer
 	Merged in PR from github user @cake-pie
 		Community Trait Icons Wrapper update
