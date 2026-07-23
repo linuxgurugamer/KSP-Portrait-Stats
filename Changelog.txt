@@ -1,5 +1,8 @@
 Changelog
 
+18.1.0.2
+	Fixed bug where tourists would get their itinaries replicated over time in the popup
+
 18.1.0.1
 	Fixed location of the Settings.cfg file
 

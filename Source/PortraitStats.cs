@@ -144,7 +144,6 @@ namespace PortraitStats
 				return;
 
 			var enumerator = currentCrew.GetDictEnumerator();
-
 			while (enumerator.MoveNext())
 			{
 				KerbalTrait k = enumerator.Current.Value;

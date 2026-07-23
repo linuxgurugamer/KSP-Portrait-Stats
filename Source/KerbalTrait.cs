@@ -153,7 +153,9 @@ namespace PortraitStats
 
 			Contract[] currentContracts = ContractSystem.Instance.GetCurrentActiveContracts<TourismContract>();
 
-			for (int i = 0; i < currentContracts.Length; i++)
+            touristParams.Clear();
+
+            for (int i = 0; i < currentContracts.Length; i++)
 			{
 				Contract c = currentContracts[i];
 
